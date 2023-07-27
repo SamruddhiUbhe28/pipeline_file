@@ -8,7 +8,9 @@ echo 'This is Git repo'
 }
 stage('second-stage')
 {
+steps{
 echo 'This is second stage'
+}
 }
 }
 }
